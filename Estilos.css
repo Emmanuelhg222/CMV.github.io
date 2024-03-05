@@ -1,0 +1,138 @@
+/* Reset margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+  }
+  
+  .container {
+    width: 1000px;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin: 40px auto;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #444;
+  }
+  
+  form {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #444;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+  }
+  
+  input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  button[type="submit"] {
+    width: 100%;
+    background-color: #17aaee;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .remember-me {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .sign-up {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #444;
+  }
+  
+  .sign-up a {
+    color: #339eb1;
+    text-decoration: none;
+  }
+
+  .social-login {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.social-login button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.redesSociales {
+    background-color: #3ebcf7;
+    color: white;
+}
+
+/* REGISTRO */
+.containerR {
+  width: 50%;
+  height: 100vh;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin: 0 auto; /* Centra el contenedor horizontalmente */
+  padding: 20px; /* Ajusta el relleno interno para dejar espacio alrededor del contenido */
+  line-height: 0; /* Elimina el espacio entre los elementos */
+}
+
+.containerR * {
+  line-height: normal; /* Restablece la line-height de los elementos hijos */
+}
+
+
+.containerRI {
+width: 50%; /* Ancho del contenedor al 100% del ancho de la ventana */
+height: 100vh; /* Altura del contenedor al 100% de la altura de la ventana */
+background-color: #fff; /* Color de fondo blanco */
+box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Sombra */
+text-align: center; /* Centra el texto dentro del contenedor */
+margin: 0; /* Sin margen exterior */
+padding: 0; /* Sin relleno interior */
+margin-bottom: 0; /* Sin margen inferior */
+}
+
+button[type="Registrar"] {
+  width: 100%;
+  background-color: #17aaee;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
